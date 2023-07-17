@@ -1,0 +1,290 @@
+2021-09-01 20:27:45,197 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2021-09-01 20:27:46,848 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2021-09-01 20:27:46,997 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2021-09-01 20:27:46,998 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\take\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\take\jdk\jre\lib\endorsed
+	java.ext.dirs = C:\take\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\take\jdk\jre
+	java.io.tmpdir = C:\Users\marek\AppData\Local\Temp\
+	java.library.path = C:\take\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Atmel\AVR Tools\AVR Toolchain\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.9\bin;C:\TDM-GCC-64\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Gradle\gradle-6.9\bin;C:\Program Files (x86)\dotnet\;C:\Users\marek\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\marek\AppData\Local\Programs\Python\Python37\;C:\Users\marek\.dotnet\tools;C:\Users\marek\AppData\Roaming\npm;C:\Users\marek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marek\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_73-b02
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_73
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.73-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\take\wildfly-10.1.0.Final
+	jboss.host.name = laptop-rgjfp94i
+	jboss.modules.dir = C:\take\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-rgjfp94i
+	jboss.qualified.host.name = laptop-rgjfp94i
+	jboss.server.base.dir = C:\take\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\take\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\take\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\take\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\take\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = laptop-rgjfp94i
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\take\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\take\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\take\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\take\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\take\jdk\jre\lib\resources.jar;C:\take\jdk\jre\lib\rt.jar;C:\take\jdk\jre\lib\sunrsasign.jar;C:\take\jdk\jre\lib\jsse.jar;C:\take\jdk\jre\lib\jce.jar;C:\take\jdk\jre\lib\charsets.jar;C:\take\jdk\jre\lib\jfr.jar;C:\take\jdk\jre\classes
+	sun.boot.library.path = C:\take\jdk\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\take\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\take\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\take\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp852
+	sun.stdout.encoding = cp852
+	user.country = PL
+	user.dir = C:\take
+	user.home = C:\Users\marek
+	user.language = pl
+	user.name = marek
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2021-09-01 20:27:47,002 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n -Dorg.jboss.boot.log.file=C:\take\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\take\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2021-09-01 20:27:55,900 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-09-01 20:27:55,918 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2021-09-01 20:27:55,924 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2021-09-01 20:27:55,966 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2021-09-01 20:27:55,973 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2021-09-01 20:27:55,979 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2021-09-01 20:27:55,980 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-09-01 20:27:55,996 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2021-09-01 20:27:56,000 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-09-01 20:27:56,005 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2021-09-01 20:27:56,010 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2021-09-01 20:27:56,172 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2021-09-01 20:27:56,222 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2021-09-01 20:27:56,232 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2021-09-01 20:27:56,234 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-09-01 20:27:56,254 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2021-09-01 20:27:56,263 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-09-01 20:27:56,280 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.21.Final
+2021-09-01 20:27:56,468 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\take\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-09-01 20:27:56,508 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-09-01 20:27:56,510 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-09-01 20:27:56,519 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2021-09-01 20:27:56,521 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2021-09-01 20:27:56,951 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-09-01 20:27:57,174 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\take\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-09-01 20:27:57,222 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\take\wildfly-10.1.0.Final\standalone\deployments
+2021-09-01 20:27:57,239 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-09-01 20:27:57,241 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "practice.war" (runtime-name: "practice.war")
+2021-09-01 20:27:57,252 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "Praktyki.war" (runtime-name: "Praktyki.war")
+2021-09-01 20:27:57,255 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "h2console.war" (runtime-name: "h2console.war")
+2021-09-01 20:27:57,504 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2021-09-01 20:27:57,559 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-09-01 20:27:57,611 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:27:57,613 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:27:57,607 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:27:57,640 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:27:57,641 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:27:57,643 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:27:57,905 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-09-01 20:27:59,713 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2021-09-01 20:27:59,930 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for default
+2021-09-01 20:28:00,414 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-09-01 20:28:00,440 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-09-01 20:28:00,478 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment take.war
+2021-09-01 20:28:00,553 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.0.10.Final}
+2021-09-01 20:28:00,556 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2021-09-01 20:28:00,559 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2021-09-01 20:28:00,607 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-09-01 20:28:01,110 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+2021-09-01 20:28:01,224 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'OfferControllerImpl' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/OfferControllerImpl!eu.myszojelenie.controller.OfferController
+	java:app/take/OfferControllerImpl!eu.myszojelenie.controller.OfferController
+	java:module/OfferControllerImpl!eu.myszojelenie.controller.OfferController
+	java:global/take/OfferControllerImpl
+	java:app/take/OfferControllerImpl
+	java:module/OfferControllerImpl
+
+2021-09-01 20:28:01,226 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'InternshipControllerImpl' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipControllerImpl!eu.myszojelenie.controller.InternshipController
+	java:app/take/InternshipControllerImpl!eu.myszojelenie.controller.InternshipController
+	java:module/InternshipControllerImpl!eu.myszojelenie.controller.InternshipController
+	java:global/take/InternshipControllerImpl
+	java:app/take/InternshipControllerImpl
+	java:module/InternshipControllerImpl
+
+2021-09-01 20:28:01,229 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'OfferRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/OfferRepository!eu.myszojelenie.repository.OfferRepository
+	java:app/take/OfferRepository!eu.myszojelenie.repository.OfferRepository
+	java:module/OfferRepository!eu.myszojelenie.repository.OfferRepository
+	java:global/take/OfferRepository
+	java:app/take/OfferRepository
+	java:module/OfferRepository
+
+2021-09-01 20:28:01,231 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.service.StudentService
+	java:module/StudentService!eu.myszojelenie.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-09-01 20:28:01,231 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'CompanyService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/CompanyService!eu.myszojelenie.service.CompanyService
+	java:app/take/CompanyService!eu.myszojelenie.service.CompanyService
+	java:module/CompanyService!eu.myszojelenie.service.CompanyService
+	java:global/take/CompanyService
+	java:app/take/CompanyService
+	java:module/CompanyService
+
+2021-09-01 20:28:01,233 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'StudentControllerImpl' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentControllerImpl!eu.myszojelenie.controller.StudentController
+	java:app/take/StudentControllerImpl!eu.myszojelenie.controller.StudentController
+	java:module/StudentControllerImpl!eu.myszojelenie.controller.StudentController
+	java:global/take/StudentControllerImpl
+	java:app/take/StudentControllerImpl
+	java:module/StudentControllerImpl
+
+2021-09-01 20:28:01,234 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-09-01 20:28:01,235 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'OfferService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/OfferService!eu.myszojelenie.service.OfferService
+	java:app/take/OfferService!eu.myszojelenie.service.OfferService
+	java:module/OfferService!eu.myszojelenie.service.OfferService
+	java:global/take/OfferService
+	java:app/take/OfferService
+	java:module/OfferService
+
+2021-09-01 20:28:01,236 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'CompanyRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/CompanyRepository!eu.myszojelenie.repository.CompanyRepository
+	java:app/take/CompanyRepository!eu.myszojelenie.repository.CompanyRepository
+	java:module/CompanyRepository!eu.myszojelenie.repository.CompanyRepository
+	java:global/take/CompanyRepository
+	java:app/take/CompanyRepository
+	java:module/CompanyRepository
+
+2021-09-01 20:28:01,237 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-09-01 20:28:01,238 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'InternshipService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipService!eu.myszojelenie.service.InternshipService
+	java:app/take/InternshipService!eu.myszojelenie.service.InternshipService
+	java:module/InternshipService!eu.myszojelenie.service.InternshipService
+	java:global/take/InternshipService
+	java:app/take/InternshipService
+	java:module/InternshipService
+
+2021-09-01 20:28:01,239 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'CompanyControllerImpl' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/CompanyControllerImpl!eu.myszojelenie.controller.CompanyController
+	java:app/take/CompanyControllerImpl!eu.myszojelenie.controller.CompanyController
+	java:module/CompanyControllerImpl!eu.myszojelenie.controller.CompanyController
+	java:global/take/CompanyControllerImpl
+	java:app/take/CompanyControllerImpl
+	java:module/CompanyControllerImpl
+
+2021-09-01 20:28:01,350 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /practice
+2021-09-01 20:28:01,350 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /Praktyki
+2021-09-01 20:28:01,371 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /h2console
+2021-09-01 20:28:01,456 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:28:01,457 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-09-01 20:28:01,499 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.5 (Final)
+2021-09-01 20:28:01,677 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-09-01 20:28:01,779 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-09-01 20:28:01,895 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-01 20:28:01,902 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 63) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-09-01 20:28:01,938 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2021-09-01 20:28:02,551 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 63) HHH000227: Running hbm2ddl schema export
+2021-09-01 20:28:02,560 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: drop table Company if exists
+2021-09-01 20:28:02,561 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: drop table Internship if exists
+2021-09-01 20:28:02,562 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: drop table Offer if exists
+2021-09-01 20:28:02,567 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: drop table Student if exists
+2021-09-01 20:28:02,568 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-09-01 20:28:02,575 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: create table Internship (internshipId bigint generated by default as identity, startingDate timestamp, offer_id bigint, student_id bigint, primary key (internshipId))
+2021-09-01 20:28:02,577 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: create table Offer (offerId bigint generated by default as identity, active boolean, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-09-01 20:28:02,580 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), hasFoundInternship boolean, hasInternshipApproved boolean, hasInternshipFinished boolean, lastName varchar(255), studentIndex varchar(255), primary key (studentId))
+2021-09-01 20:28:02,582 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: alter table Student add constraint UK_cek78t6fmu8qhu6fmmcyjy8sf unique (studentIndex)
+2021-09-01 20:28:02,586 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-09-01 20:28:02,594 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: alter table Internship add constraint FKe7h43dbt2hogs7hkd0gv1sao7 foreign key (student_id) references Student
+2021-09-01 20:28:02,597 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-09-01 20:28:02,600 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 63) HHH000230: Schema export complete
+2021-09-01 20:28:03,591 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /take
+2021-09-01 20:28:03,781 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "take.war" (runtime-name : "take.war")
+2021-09-01 20:28:03,782 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Praktyki.war" (runtime-name : "Praktyki.war")
+2021-09-01 20:28:03,783 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "practice.war" (runtime-name : "practice.war")
+2021-09-01 20:28:03,783 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "h2console.war" (runtime-name : "h2console.war")
+2021-09-01 20:28:04,032 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-09-01 20:28:04,033 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-09-01 20:28:04,034 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 19478ms - Started 855 of 1109 services (437 services are lazy, passive or on-demand)
+2021-09-01 20:28:46,061 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2021-09-01 20:28:46,136 INFO  [stdout] (default task-1) Hibernate: select student0_.studentId as studentI1_3_, student0_.firstName as firstNam2_3_, student0_.hasFoundInternship as hasFound3_3_, student0_.hasInternshipApproved as hasInter4_3_, student0_.hasInternshipFinished as hasInter5_3_, student0_.lastName as lastName6_3_, student0_.studentIndex as studentI7_3_ from Student student0_
+2021-09-01 20:28:46,159 INFO  [stdout] (default task-1) 0
+2021-09-01 20:28:46,159 INFO  [stdout] (default task-1) Hibernate: select student0_.studentId as studentI1_3_, student0_.firstName as firstNam2_3_, student0_.hasFoundInternship as hasFound3_3_, student0_.hasInternshipApproved as hasInter4_3_, student0_.hasInternshipFinished as hasInter5_3_, student0_.lastName as lastName6_3_, student0_.studentIndex as studentI7_3_ from Student student0_

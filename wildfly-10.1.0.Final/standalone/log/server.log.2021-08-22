@@ -1,0 +1,1475 @@
+2021-08-22 19:24:45,293 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2021-08-22 19:24:46,691 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2021-08-22 19:24:46,769 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2021-08-22 19:24:46,771 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\take\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\take\jdk\jre\lib\endorsed
+	java.ext.dirs = C:\take\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\take\jdk\jre
+	java.io.tmpdir = C:\Users\Kamil\AppData\Local\Temp\
+	java.library.path = C:\take\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Kamil\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Kamil\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kamil\AppData\Local\Microsoft\WindowsApps;C:\Users\Kamil\.dotnet\tools;C:\Program Files\heroku\bin;C:\DEV\apache-maven-3.8.1\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_73-b02
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_73
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.73-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\take\wildfly-10.1.0.Final
+	jboss.host.name = desktop-ttccled
+	jboss.modules.dir = C:\take\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-ttccled
+	jboss.qualified.host.name = desktop-ttccled
+	jboss.server.base.dir = C:\take\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\take\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\take\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\take\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\take\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-ttccled
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\take\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\take\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\take\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\take\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\take\jdk\jre\lib\resources.jar;C:\take\jdk\jre\lib\rt.jar;C:\take\jdk\jre\lib\sunrsasign.jar;C:\take\jdk\jre\lib\jsse.jar;C:\take\jdk\jre\lib\jce.jar;C:\take\jdk\jre\lib\charsets.jar;C:\take\jdk\jre\lib\jfr.jar;C:\take\jdk\jre\classes
+	sun.boot.library.path = C:\take\jdk\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\take\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\take\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\take\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp852
+	sun.stdout.encoding = cp852
+	user.country = PL
+	user.dir = C:\take
+	user.home = C:\Users\Kamil
+	user.language = pl
+	user.name = Kamil
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2021-08-22 19:24:46,771 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n -Dorg.jboss.boot.log.file=C:\take\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\take\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2021-08-22 19:24:52,885 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-08-22 19:24:52,941 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2021-08-22 19:24:52,949 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2021-08-22 19:24:53,073 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2021-08-22 19:24:53,098 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-08-22 19:24:53,124 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2021-08-22 19:24:53,153 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2021-08-22 19:24:53,183 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2021-08-22 19:24:53,202 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-08-22 19:24:53,206 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2021-08-22 19:24:53,259 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 12 core threads with 96 task threads based on your 6 available processors
+2021-08-22 19:24:53,331 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2021-08-22 19:24:53,542 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2021-08-22 19:24:53,579 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2021-08-22 19:24:53,596 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2021-08-22 19:24:53,596 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-08-22 19:24:53,603 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-08-22 19:24:53,764 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.21.Final
+2021-08-22 19:24:53,841 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\take\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-08-22 19:24:53,858 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2021-08-22 19:24:53,863 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2021-08-22 19:24:53,876 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 96 (per class), which is derived from thread worker pool sizing.
+2021-08-22 19:24:53,878 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 24 (per class), which is derived from the number of CPUs on this host.
+2021-08-22 19:24:53,938 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-08-22 19:24:54,024 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-08-22 19:24:54,119 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\take\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-08-22 19:24:54,137 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\take\wildfly-10.1.0.Final\standalone\deployments
+2021-08-22 19:24:54,140 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "h2console.war" (runtime-name: "h2console.war")
+2021-08-22 19:24:54,140 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:24:54,140 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "Praktyki.war" (runtime-name: "Praktyki.war")
+2021-08-22 19:24:54,140 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "practice.war" (runtime-name: "practice.war")
+2021-08-22 19:24:54,337 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2021-08-22 19:24:54,369 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:54,369 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:54,369 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:54,371 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:54,372 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:54,373 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:54,460 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-08-22 19:24:55,343 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2021-08-22 19:24:55,364 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:24:55,428 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:24:55,874 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:24:55,899 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:24:55,904 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:24:55,996 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 60) HHH000412: Hibernate Core {5.0.10.Final}
+2021-08-22 19:24:55,997 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 60) HHH000206: hibernate.properties not found
+2021-08-22 19:24:55,999 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 60) HHH000021: Bytecode provider name : javassist
+2021-08-22 19:24:56,034 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-22 19:24:56,440 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final
+2021-08-22 19:24:56,556 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:24:56,557 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:24:56,559 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:24:56,656 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /practice
+2021-08-22 19:24:56,656 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /Praktyki
+2021-08-22 19:24:56,682 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /h2console
+2021-08-22 19:24:56,696 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:56,697 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:24:56,737 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.5 (Final)
+2021-08-22 19:24:56,959 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:24:57,036 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:24:57,158 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:24:57,164 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 64) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:24:57,196 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2021-08-22 19:24:57,659 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:24:57,664 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: drop table Company if exists
+2021-08-22 19:24:57,665 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: drop table Internship if exists
+2021-08-22 19:24:57,665 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: drop table Offer if exists
+2021-08-22 19:24:57,666 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: drop table Student if exists
+2021-08-22 19:24:57,667 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:24:57,670 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:24:57,671 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:24:57,672 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:24:57,672 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:24:57,677 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:24:57,678 INFO  [stdout] (ServerService Thread Pool -- 64) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:24:57,679 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2021-08-22 19:24:58,090 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /take
+2021-08-22 19:24:58,152 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "take.war" (runtime-name : "take.war")
+2021-08-22 19:24:58,152 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Praktyki.war" (runtime-name : "Praktyki.war")
+2021-08-22 19:24:58,153 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "practice.war" (runtime-name : "practice.war")
+2021-08-22 19:24:58,154 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "h2console.war" (runtime-name : "h2console.war")
+2021-08-22 19:24:58,218 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-08-22 19:24:58,219 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-08-22 19:24:58,220 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 13589ms - Started 699 of 953 services (437 services are lazy, passive or on-demand)
+2021-08-22 19:27:31,304 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.service.StudentService.addStudent(StudentService.java:21)
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:28:06,415 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\36\902bcb14f101508b88fb756783325e9efea939\content
+2021-08-22 19:28:06,427 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:28:06,450 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:28:06,451 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 69) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:28:06,457 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Company if exists
+2021-08-22 19:28:06,462 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Internship if exists
+2021-08-22 19:28:06,463 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Offer if exists
+2021-08-22 19:28:06,465 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Student if exists
+2021-08-22 19:28:06,466 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 69) HHH000230: Schema export complete
+2021-08-22 19:28:06,470 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:28:06,480 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:28:06,486 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 66ms
+2021-08-22 19:28:06,488 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:28:06,657 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:28:06,657 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:28:06,664 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:28:06,678 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:28:06,679 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 73) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:28:06,684 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:28:06,689 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:28:06,690 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:28:06,714 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:28:06,715 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:28:06,725 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:28:06,729 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:28:06,730 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:28:06,730 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 69) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:28:06,735 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 69) Envers integration enabled? : true
+2021-08-22 19:28:06,775 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 69) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:28:06,777 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Company if exists
+2021-08-22 19:28:06,778 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Internship if exists
+2021-08-22 19:28:06,778 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Offer if exists
+2021-08-22 19:28:06,779 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: drop table Student if exists
+2021-08-22 19:28:06,779 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:28:06,780 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:28:06,781 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:28:06,782 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:28:06,783 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:28:06,784 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:28:06,786 INFO  [stdout] (ServerService Thread Pool -- 69) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:28:06,788 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 69) HHH000230: Schema export complete
+2021-08-22 19:28:06,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /take
+2021-08-22 19:28:06,950 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:28:06,953 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\08\4f7561586f40cdc5f302bd2659a2d22e9c5cd0\content
+2021-08-22 19:29:15,811 ERROR [io.undertow.request] (default task-2) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:29:30,903 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\24\99c0b19bec531f7d17c0514918284ab8e90bdd\content
+2021-08-22 19:29:30,909 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:29:30,917 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:29:30,917 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:29:30,921 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table Company if exists
+2021-08-22 19:29:30,923 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table Internship if exists
+2021-08-22 19:29:30,924 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table Offer if exists
+2021-08-22 19:29:30,926 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table Student if exists
+2021-08-22 19:29:30,929 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000230: Schema export complete
+2021-08-22 19:29:30,932 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:29:30,943 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:29:30,951 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 46ms
+2021-08-22 19:29:30,952 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:29:31,096 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:29:31,097 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:29:31,103 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:29:31,116 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 82) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:29:31,117 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 82) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:29:31,120 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:29:31,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:29:31,126 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:29:31,148 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 82) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:29:31,149 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 82) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:29:31,159 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 82) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:29:31,162 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 82) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:29:31,163 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 82) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:29:31,163 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 82) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:29:31,167 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 82) Envers integration enabled? : true
+2021-08-22 19:29:31,215 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 82) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:29:31,216 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: drop table Company if exists
+2021-08-22 19:29:31,217 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: drop table Internship if exists
+2021-08-22 19:29:31,218 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: drop table Offer if exists
+2021-08-22 19:29:31,218 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: drop table Student if exists
+2021-08-22 19:29:31,219 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:29:31,220 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:29:31,221 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:29:31,221 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:29:31,222 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:29:31,223 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:29:31,224 INFO  [stdout] (ServerService Thread Pool -- 82) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:29:31,228 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 82) HHH000230: Schema export complete
+2021-08-22 19:29:31,341 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0021: Registered web context: /take
+2021-08-22 19:29:31,370 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:29:31,372 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\36\902bcb14f101508b88fb756783325e9efea939\content
+2021-08-22 19:30:31,792 ERROR [io.undertow.request] (default task-3) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:30:46,880 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\17\e913ff2f927df77011098e4ed9de7657274816\content
+2021-08-22 19:30:46,884 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:30:46,894 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:30:46,895 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:30:46,899 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Company if exists
+2021-08-22 19:30:46,902 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Internship if exists
+2021-08-22 19:30:46,904 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Offer if exists
+2021-08-22 19:30:46,906 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Student if exists
+2021-08-22 19:30:46,907 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000230: Schema export complete
+2021-08-22 19:30:46,909 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:30:46,920 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 89) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:30:46,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 50ms
+2021-08-22 19:30:46,934 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:30:47,099 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:30:47,099 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:30:47,105 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:30:47,118 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:30:47,119 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 89) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:30:47,123 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:30:47,128 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:30:47,129 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:30:47,131 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:30:47,155 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 89) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:30:47,156 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 89) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:30:47,164 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 89) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:30:47,167 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:30:47,168 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 89) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:30:47,169 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 89) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:30:47,172 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 89) Envers integration enabled? : true
+2021-08-22 19:30:47,206 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 89) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:30:47,208 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Company if exists
+2021-08-22 19:30:47,209 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Internship if exists
+2021-08-22 19:30:47,210 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Offer if exists
+2021-08-22 19:30:47,210 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Student if exists
+2021-08-22 19:30:47,210 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:30:47,211 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:30:47,212 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:30:47,213 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:30:47,213 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:30:47,214 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:30:47,215 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:30:47,217 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 89) HHH000230: Schema export complete
+2021-08-22 19:30:47,302 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0021: Registered web context: /take
+2021-08-22 19:30:47,333 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:30:47,335 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\24\99c0b19bec531f7d17c0514918284ab8e90bdd\content
+2021-08-22 19:30:53,838 ERROR [io.undertow.request] (default task-4) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:31:08,928 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\d3\101585ee61b3e8ea3632eee861c65a5e62abd3\content
+2021-08-22 19:31:08,930 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:31:08,936 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:31:08,937 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 96) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:31:08,939 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Company if exists
+2021-08-22 19:31:08,941 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Internship if exists
+2021-08-22 19:31:08,942 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Offer if exists
+2021-08-22 19:31:08,943 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Student if exists
+2021-08-22 19:31:08,943 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 96) HHH000230: Schema export complete
+2021-08-22 19:31:08,945 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:31:08,951 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 96) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:31:08,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 28ms
+2021-08-22 19:31:08,960 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:31:09,099 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:31:09,099 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:31:09,105 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:31:09,117 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:31:09,118 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 96) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:31:09,123 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:31:09,128 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:31:09,128 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:31:09,129 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:31:09,152 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 96) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:31:09,152 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 96) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:31:09,163 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 96) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:31:09,170 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:31:09,171 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 96) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:31:09,172 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 96) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:31:09,177 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 96) Envers integration enabled? : true
+2021-08-22 19:31:09,227 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 96) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:31:09,229 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Company if exists
+2021-08-22 19:31:09,230 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Internship if exists
+2021-08-22 19:31:09,230 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Offer if exists
+2021-08-22 19:31:09,231 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: drop table Student if exists
+2021-08-22 19:31:09,231 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:31:09,232 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:31:09,233 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:31:09,234 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:31:09,235 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:31:09,236 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:31:09,238 INFO  [stdout] (ServerService Thread Pool -- 96) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:31:09,241 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 96) HHH000230: Schema export complete
+2021-08-22 19:31:09,332 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: /take
+2021-08-22 19:31:09,358 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:31:09,361 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\17\e913ff2f927df77011098e4ed9de7657274816\content
+2021-08-22 19:31:24,079 ERROR [io.undertow.request] (default task-5) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:31:49,181 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\8f\1e138c3c26c0435cab9ca8644fc5c80ea30af1\content
+2021-08-22 19:31:49,183 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:31:49,192 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:31:49,192 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:31:49,194 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Company if exists
+2021-08-22 19:31:49,196 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Internship if exists
+2021-08-22 19:31:49,197 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Offer if exists
+2021-08-22 19:31:49,197 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Student if exists
+2021-08-22 19:31:49,198 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000230: Schema export complete
+2021-08-22 19:31:49,199 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:31:49,204 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 104) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:31:49,211 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 30ms
+2021-08-22 19:31:49,213 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:31:49,352 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:31:49,352 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:31:49,358 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:31:49,369 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:31:49,370 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 104) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:31:49,374 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:31:49,379 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:31:49,379 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:31:49,380 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:31:49,403 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 104) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:31:49,404 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 104) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:31:49,409 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 104) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:31:49,414 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:31:49,414 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 104) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:31:49,415 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 104) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:31:49,419 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 104) Envers integration enabled? : true
+2021-08-22 19:31:49,450 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:31:49,452 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Company if exists
+2021-08-22 19:31:49,453 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Internship if exists
+2021-08-22 19:31:49,454 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Offer if exists
+2021-08-22 19:31:49,455 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: drop table Student if exists
+2021-08-22 19:31:49,455 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:31:49,456 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:31:49,456 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:31:49,457 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:31:49,457 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:31:49,458 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:31:49,459 INFO  [stdout] (ServerService Thread Pool -- 104) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:31:49,462 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000230: Schema export complete
+2021-08-22 19:31:49,545 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 102) WFLYUT0021: Registered web context: /take
+2021-08-22 19:31:49,570 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:31:49,572 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\d3\101585ee61b3e8ea3632eee861c65a5e62abd3\content
+2021-08-22 19:31:59,637 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\82\ef5bdc097ae33fb1b131b03b06f3d6844e8fca\content
+2021-08-22 19:31:59,639 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 102) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:31:59,647 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 100) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:31:59,648 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 100) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:31:59,650 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Company if exists
+2021-08-22 19:31:59,652 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Internship if exists
+2021-08-22 19:31:59,652 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Offer if exists
+2021-08-22 19:31:59,653 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Student if exists
+2021-08-22 19:31:59,654 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 100) HHH000230: Schema export complete
+2021-08-22 19:31:59,655 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 100) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:31:59,662 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 100) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:31:59,670 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 31ms
+2021-08-22 19:31:59,672 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:31:59,816 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:31:59,816 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:31:59,824 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:31:59,836 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 100) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:31:59,837 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 100) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:31:59,842 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:31:59,846 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:31:59,847 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:31:59,849 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:31:59,873 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 100) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:31:59,874 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 100) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:31:59,879 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 100) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:31:59,881 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 100) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:31:59,882 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 100) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:31:59,883 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 100) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:31:59,886 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 100) Envers integration enabled? : true
+2021-08-22 19:31:59,914 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 100) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:31:59,916 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Company if exists
+2021-08-22 19:31:59,916 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Internship if exists
+2021-08-22 19:31:59,917 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Offer if exists
+2021-08-22 19:31:59,918 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: drop table Student if exists
+2021-08-22 19:31:59,918 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:31:59,919 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:31:59,920 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:31:59,921 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:31:59,921 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:31:59,922 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:31:59,923 INFO  [stdout] (ServerService Thread Pool -- 100) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:31:59,924 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 100) HHH000230: Schema export complete
+2021-08-22 19:32:00,012 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0021: Registered web context: /take
+2021-08-22 19:32:00,036 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:32:00,038 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\8f\1e138c3c26c0435cab9ca8644fc5c80ea30af1\content
+2021-08-22 19:34:15,469 ERROR [io.undertow.request] (default task-6) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:34:30,564 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\d9\47048ec04678617023d54ebae5149b026cefba\content
+2021-08-22 19:34:30,570 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 106) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:34:30,575 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:34:30,576 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 107) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:34:30,580 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Company if exists
+2021-08-22 19:34:30,582 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Internship if exists
+2021-08-22 19:34:30,582 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Offer if exists
+2021-08-22 19:34:30,584 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Student if exists
+2021-08-22 19:34:30,589 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 107) HHH000230: Schema export complete
+2021-08-22 19:34:30,592 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:34:30,601 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 107) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:34:30,610 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 44ms
+2021-08-22 19:34:30,611 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:34:30,770 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:34:30,770 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:34:30,776 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:34:30,789 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:34:30,790 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 107) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:34:30,795 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:34:30,799 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:34:30,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:34:30,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:34:30,823 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 107) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:34:30,824 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 107) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:34:30,829 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 107) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:34:30,830 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 112) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:34:30,833 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 112) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:34:30,834 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 112) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:34:30,837 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 112) Envers integration enabled? : true
+2021-08-22 19:34:30,864 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 112) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:34:30,866 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: drop table Company if exists
+2021-08-22 19:34:30,866 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: drop table Internship if exists
+2021-08-22 19:34:30,867 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: drop table Offer if exists
+2021-08-22 19:34:30,868 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: drop table Student if exists
+2021-08-22 19:34:30,868 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:34:30,869 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:34:30,870 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:34:30,870 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:34:30,871 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:34:30,872 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:34:30,873 INFO  [stdout] (ServerService Thread Pool -- 112) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:34:30,874 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 112) HHH000230: Schema export complete
+2021-08-22 19:34:30,955 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 109) WFLYUT0021: Registered web context: /take
+2021-08-22 19:34:30,986 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:34:30,988 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\82\ef5bdc097ae33fb1b131b03b06f3d6844e8fca\content
+2021-08-22 19:34:41,056 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\90\2b51a0dd58d0a64eaee0c92e01b162e1295edc\content
+2021-08-22 19:34:41,058 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 109) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:34:41,064 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:34:41,065 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 107) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:34:41,067 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Company if exists
+2021-08-22 19:34:41,069 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Internship if exists
+2021-08-22 19:34:41,069 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Offer if exists
+2021-08-22 19:34:41,069 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Student if exists
+2021-08-22 19:34:41,070 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 107) HHH000230: Schema export complete
+2021-08-22 19:34:41,071 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:34:41,077 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 107) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:34:41,083 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 25ms
+2021-08-22 19:34:41,084 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:34:41,221 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:34:41,222 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:34:41,227 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:34:41,239 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:34:41,239 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 107) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:34:41,243 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:34:41,248 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:34:41,248 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:34:41,249 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:34:41,271 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 107) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:34:41,272 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 107) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:34:41,277 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 107) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:34:41,280 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:34:41,280 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 107) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:34:41,281 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 107) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:34:41,284 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 107) Envers integration enabled? : true
+2021-08-22 19:34:41,311 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 107) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:34:41,312 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Company if exists
+2021-08-22 19:34:41,313 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Internship if exists
+2021-08-22 19:34:41,313 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Offer if exists
+2021-08-22 19:34:41,314 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Student if exists
+2021-08-22 19:34:41,315 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:34:41,316 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:34:41,316 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:34:41,317 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:34:41,317 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:34:41,318 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:34:41,319 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:34:41,320 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 107) HHH000230: Schema export complete
+2021-08-22 19:34:41,399 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0021: Registered web context: /take
+2021-08-22 19:34:41,421 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:34:41,422 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\d9\47048ec04678617023d54ebae5149b026cefba\content
+2021-08-22 19:35:16,081 ERROR [io.undertow.request] (default task-7) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:35:36,169 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\f6\931667711608955b1cb198faeccf1c599200e4\content
+2021-08-22 19:35:36,171 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 116) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:35:36,176 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 118) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:35:36,177 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 118) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:35:36,179 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Company if exists
+2021-08-22 19:35:36,181 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Internship if exists
+2021-08-22 19:35:36,181 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Offer if exists
+2021-08-22 19:35:36,182 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Student if exists
+2021-08-22 19:35:36,182 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 118) HHH000230: Schema export complete
+2021-08-22 19:35:36,184 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 118) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:35:36,190 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 118) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:35:36,197 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 27ms
+2021-08-22 19:35:36,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:35:36,353 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:35:36,354 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.StudentController is an interface, hence won't be considered as a session bean
+2021-08-22 19:35:36,361 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:35:36,374 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 118) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:35:36,374 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 118) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:35:36,378 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:35:36,383 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:35:36,383 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:35:36,384 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:35:36,407 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 118) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:35:36,408 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 118) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:35:36,412 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 118) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:35:36,415 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 118) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:35:36,416 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 118) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:35:36,416 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 118) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:35:36,419 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 118) Envers integration enabled? : true
+2021-08-22 19:35:36,447 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 118) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:35:36,449 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Company if exists
+2021-08-22 19:35:36,449 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Internship if exists
+2021-08-22 19:35:36,450 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Offer if exists
+2021-08-22 19:35:36,450 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: drop table Student if exists
+2021-08-22 19:35:36,451 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:35:36,452 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:35:36,452 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:35:36,453 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:35:36,453 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:35:36,454 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:35:36,455 INFO  [stdout] (ServerService Thread Pool -- 118) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:35:36,456 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 118) HHH000230: Schema export complete
+2021-08-22 19:35:36,514 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 119) WFLYUT0021: Registered web context: /take
+2021-08-22 19:35:36,535 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:35:36,537 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\90\2b51a0dd58d0a64eaee0c92e01b162e1295edc\content
+2021-08-22 19:38:06,145 ERROR [io.undertow.request] (default task-8) UT005023: Exception handling request to /take/student/: org.jboss.resteasy.spi.UnhandledException: java.lang.NullPointerException
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at eu.myszojelenie.internship.controller.StudentControllerImpl.createStudent(StudentControllerImpl.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+
+2021-08-22 19:38:16,218 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\1b\a73251d275e8f8651fc2088fac5720c76516ef\content
+2021-08-22 19:38:16,220 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 121) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:38:16,226 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 126) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:38:16,227 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 126) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:38:16,229 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Company if exists
+2021-08-22 19:38:16,230 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Internship if exists
+2021-08-22 19:38:16,231 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Offer if exists
+2021-08-22 19:38:16,231 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Student if exists
+2021-08-22 19:38:16,231 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 126) HHH000230: Schema export complete
+2021-08-22 19:38:16,233 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 126) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:38:16,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 126) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:38:16,246 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 26ms
+2021-08-22 19:38:16,247 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:38:16,395 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:38:16,399 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:38:16,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 126) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:38:16,411 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 126) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:38:16,417 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:38:16,421 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:38:16,422 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:38:16,422 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StudentControllerImpl' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentControllerImpl!eu.myszojelenie.internship.controller.StudentController
+	java:app/take/StudentControllerImpl!eu.myszojelenie.internship.controller.StudentController
+	java:module/StudentControllerImpl!eu.myszojelenie.internship.controller.StudentController
+	java:global/take/StudentControllerImpl
+	java:app/take/StudentControllerImpl
+	java:module/StudentControllerImpl
+
+2021-08-22 19:38:16,423 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:38:16,449 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 126) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:38:16,449 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 126) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:38:16,454 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 126) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:38:16,458 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 126) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:38:16,460 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 126) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:38:16,461 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 126) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:38:16,470 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 126) Envers integration enabled? : true
+2021-08-22 19:38:16,505 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 126) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:38:16,507 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Company if exists
+2021-08-22 19:38:16,508 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Internship if exists
+2021-08-22 19:38:16,508 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Offer if exists
+2021-08-22 19:38:16,509 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: drop table Student if exists
+2021-08-22 19:38:16,510 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:38:16,511 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:38:16,511 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:38:16,512 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:38:16,512 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:38:16,513 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:38:16,514 INFO  [stdout] (ServerService Thread Pool -- 126) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:38:16,516 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 126) HHH000230: Schema export complete
+2021-08-22 19:38:16,577 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0021: Registered web context: /take
+2021-08-22 19:38:16,598 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:38:16,599 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\f6\931667711608955b1cb198faeccf1c599200e4\content
+2021-08-22 19:39:08,446 INFO  [stdout] (default task-9) Hibernate: insert into Student (studentId, firstName, internship_id, lastName, studentIndex) values (null, ?, ?, ?, ?)
+2021-08-22 19:40:19,152 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\take\wildfly-10.1.0.Final\standalone\data\content\47\5b6d79a92614bfe9f6b808bb72a01b4a29fcb2\content
+2021-08-22 19:40:19,155 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 127) WFLYUT0022: Unregistered web context: /take
+2021-08-22 19:40:19,165 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 130) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:40:19,166 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 130) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:40:19,169 INFO  [stdout] (ServerService Thread Pool -- 130) Hibernate: drop table Company if exists
+2021-08-22 19:40:19,170 INFO  [stdout] (ServerService Thread Pool -- 130) Hibernate: drop table Internship if exists
+2021-08-22 19:40:19,171 INFO  [stdout] (ServerService Thread Pool -- 130) Hibernate: drop table Offer if exists
+2021-08-22 19:40:19,171 INFO  [stdout] (ServerService Thread Pool -- 130) Hibernate: drop table Student if exists
+2021-08-22 19:40:19,172 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 130) HHH000230: Schema export complete
+2021-08-22 19:40:19,175 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 130) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:40:19,184 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 133) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-08-22 19:40:19,191 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment take.war (runtime-name: take.war) in 37ms
+2021-08-22 19:40:19,192 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "take.war" (runtime-name: "take.war")
+2021-08-22 19:40:19,344 WARN  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0118: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - eu.myszojelenie.internship.controller.InternshipController is an interface, hence won't be considered as a session bean
+2021-08-22 19:40:19,349 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for default
+2021-08-22 19:40:19,363 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 133) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'take.war#default'
+2021-08-22 19:40:19,363 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 133) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-22 19:40:19,371 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment take.war
+2021-08-22 19:40:19,376 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'StudentRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:app/take/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:module/StudentRepository!eu.myszojelenie.internship.repository.StudentRepository
+	java:global/take/StudentRepository
+	java:app/take/StudentRepository
+	java:module/StudentRepository
+
+2021-08-22 19:40:19,376 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'StudentService' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:app/take/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:module/StudentService!eu.myszojelenie.internship.service.StudentService
+	java:global/take/StudentService
+	java:app/take/StudentService
+	java:module/StudentService
+
+2021-08-22 19:40:19,377 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'StudentControllerImpl' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/StudentControllerImpl!eu.myszojelenie.internship.controller.StudentController
+	java:app/take/StudentControllerImpl!eu.myszojelenie.internship.controller.StudentController
+	java:module/StudentControllerImpl!eu.myszojelenie.internship.controller.StudentController
+	java:global/take/StudentControllerImpl
+	java:app/take/StudentControllerImpl
+	java:module/StudentControllerImpl
+
+2021-08-22 19:40:19,378 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'InternshipRepository' in deployment unit 'deployment "take.war"' are as follows:
+
+	java:global/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:app/take/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:module/InternshipRepository!eu.myszojelenie.internship.repository.InternshipRepository
+	java:global/take/InternshipRepository
+	java:app/take/InternshipRepository
+	java:module/InternshipRepository
+
+2021-08-22 19:40:19,403 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 133) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:40:19,404 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 133) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-08-22 19:40:19,409 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 133) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-08-22 19:40:19,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 133) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'take.war#default'
+2021-08-22 19:40:19,412 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 133) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-22 19:40:19,412 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 133) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-08-22 19:40:19,415 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 133) Envers integration enabled? : true
+2021-08-22 19:40:19,443 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 133) HHH000227: Running hbm2ddl schema export
+2021-08-22 19:40:19,444 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: drop table Company if exists
+2021-08-22 19:40:19,445 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: drop table Internship if exists
+2021-08-22 19:40:19,446 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: drop table Offer if exists
+2021-08-22 19:40:19,446 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: drop table Student if exists
+2021-08-22 19:40:19,447 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: create table Company (companyId bigint generated by default as identity, buildingNumber integer, city varchar(255), name varchar(255), street varchar(255), zipCode varchar(255), primary key (companyId))
+2021-08-22 19:40:19,448 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: create table Internship (internshipId bigint generated by default as identity, approved boolean, finished boolean, startingDate timestamp, offer_id bigint, primary key (internshipId))
+2021-08-22 19:40:19,448 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: create table Offer (offerId bigint generated by default as identity, description varchar(255), leftPositions bigint, name varchar(255), positions bigint, salary bigint, company_id bigint, primary key (offerId))
+2021-08-22 19:40:19,449 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: create table Student (studentId bigint generated by default as identity, firstName varchar(255), lastName varchar(255), studentIndex bigint, internship_id bigint, primary key (studentId))
+2021-08-22 19:40:19,449 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: alter table Internship add constraint FK1e8c5fxbmtloi6bt6rmawpo3l foreign key (offer_id) references Offer
+2021-08-22 19:40:19,451 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: alter table Offer add constraint FKkracu7q30utk7aevysmwpv8iv foreign key (company_id) references Company
+2021-08-22 19:40:19,452 INFO  [stdout] (ServerService Thread Pool -- 133) Hibernate: alter table Student add constraint FKki3x5gpytsy8mn8at0gc0bchn foreign key (internship_id) references Internship
+2021-08-22 19:40:19,462 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 133) HHH000230: Schema export complete
+2021-08-22 19:40:19,530 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0021: Registered web context: /take
+2021-08-22 19:40:19,551 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "take.war" with deployment "take.war"
+2021-08-22 19:40:19,552 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\take\wildfly-10.1.0.Final\standalone\data\content\1b\a73251d275e8f8651fc2088fac5720c76516ef\content
+2021-08-22 19:40:31,031 INFO  [stdout] (default task-53) Hibernate: insert into Student (studentId, firstName, internship_id, lastName, studentIndex) values (null, ?, ?, ?, ?)
