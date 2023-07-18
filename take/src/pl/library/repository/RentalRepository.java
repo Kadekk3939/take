@@ -22,20 +22,33 @@ public class RentalRepository {
     }
 
     public Optional<Rental> findById(Long id) {
-        TypedQuery<Rental> query = em.createQuery(
-            "SELECT r FROM Rentals r WHERE r.rentalId = :id",
-            Rental.class
-        );
-        query.setParameter("id", id);
-        return query.getResultList().stream().findFirst();
+        return Optional.ofNullable(em.find(Rental.class, id));
     }
-
+    
     public List<Rental> findAll() {
         TypedQuery<Rental> query = em.createQuery(
             "SELECT r FROM Rentals r",
             Rental.class
         );
         return query.getResultList();
+    }
+
+    public Optional<Rental> updateRental(Rental rental) {
+        Optional<Rental> toUpdate = findById(rental.getRentalId()); 
+        if (toUpdate.isPresent()) {
+            em.merge(rental);
+            return Optional.of(rental);
+        }
+        return Optional.ofNullable(null);
+    }
+
+    public Optional<Rental> deleteRental(Rental rental) {
+        Optional<Rental> toDelete = findById(rental.getRentalId()); 
+        if (toDelete.isPresent()) {
+            em.remove(toDelete);
+            return toDelete;
+        }
+        return Optional.ofNullable(null);
     }
     
 }
