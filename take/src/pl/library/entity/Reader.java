@@ -1,5 +1,6 @@
 package pl.library.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,14 +15,18 @@ public class Reader {
     private Long readerId;
     
     private String name;
+
 	private String surname;
+
+	@Column(nullable = false, unique = true)
 	private String login;
+
 	private String password;
-	  @OneToMany(mappedBy = "reader")
+
+	@OneToMany(mappedBy = "reader")
 	private List<Rental> rentals;
 	
 	public Reader(String name, String surname, String login, String password, List<Rental> rentals) {
-		super();
 		this.name = name;
 		this.surname = surname;
 		this.login = login;
