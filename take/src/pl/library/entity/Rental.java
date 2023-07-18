@@ -26,7 +26,6 @@ public class Rental {
     private Volume volume;
     
     public Rental(LocalDateTime rentalDate, LocalDateTime deliveryDate, Reader reader,Volume volume) {
-        super();
         this.rentalDate = rentalDate;
         this.deliveryDate = deliveryDate;
         this.reader = reader;
