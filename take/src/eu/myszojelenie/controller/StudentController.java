@@ -40,4 +40,8 @@ public interface StudentController {
     @GET
     @Path("/finalize/{index}")
     StudentDto finalizeStudentInternship(@PathParam("index") String index);
+    
+    @GET
+    @Path("/test")
+    String testMethod();
 }

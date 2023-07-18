@@ -48,4 +48,9 @@ public class StudentControllerImpl implements StudentController {
         Optional<StudentDto> student = studentService.finalizeStudentInternship(index);
         return student.orElseThrow(() -> new IllegalArgumentException("Student with given index does not exist!"));
     }
+    
+    @Override
+    public String testMethod() {
+    	return "This is a drill!";
+    }
 }
