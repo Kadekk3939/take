@@ -14,6 +14,11 @@ public class ReadersDto {
 	public void setReaders(List<ReaderDto> readers) {
 		this.readers = readers;
 	}
+
+	public ReadersDto(List<ReaderDto> readers) {
+		this.readers = readers;
+	}
+
 	 
 	 
 }

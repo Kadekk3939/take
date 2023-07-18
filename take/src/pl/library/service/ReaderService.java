@@ -6,18 +6,23 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 
+import eu.myszojelenie.repository.CompanyRepository;
 import pl.library.entity.Reader;
 import pl.library.entity.dto.reader.NewReaderDto;
 import pl.library.entity.dto.reader.ReaderDto;
 import pl.library.entity.dto.reader.ReadersDto;
+import pl.library.repository.ReaderRepository;
 
 @Stateless
 public class ReaderService {
 
-	
-	 public NewReaderDto create(NewReaderDto readerDto) {
+    @EJB
+    ReaderRepository readerRepository;
+    
+	 public ReaderDto create(NewReaderDto readerDto) {
 	        Reader reader = new Reader();
 	        reader.setName(readerDto.getName());
 	        reader.setSurname(readerDto.getSurname());
@@ -31,7 +36,7 @@ public class ReaderService {
 	        return reader.map(this::mapToDto);
 	    }
 
-	    public ReaderCollectionDto findAll() {
+	    public ReadersDto findAll() {
 	        List<Reader> readers = readerRepository.findAll();
 	        List<ReaderDto> dtos = readers.stream()
 	                .map(this::mapToDto)
