@@ -46,4 +46,6 @@ public class TitleRepository {
         );
         return query.getResultList();
     }
+
+    
 }
