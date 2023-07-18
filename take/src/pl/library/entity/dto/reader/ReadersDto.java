@@ -2,6 +2,8 @@ package pl.library.entity.dto.reader;
 
 import java.util.List;
 
+import pl.library.entity.dto.rental.RentalDto;
+
 
 
 public class ReadersDto {
@@ -19,6 +21,7 @@ public class ReadersDto {
 		this.readers = readers;
 	}
 
-	 
-	 
+	public ReadersDto() {
+
+	}
 }

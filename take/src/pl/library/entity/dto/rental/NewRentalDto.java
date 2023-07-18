@@ -2,22 +2,17 @@ package pl.library.entity.dto.rental;
 
 import java.time.LocalDateTime;
 
-import javax.persistence.JoinColumn;
-
 import pl.library.entity.Reader;
 import pl.library.entity.Volume;
 
-public class RentalDto {
-
-
-	    private LocalDateTime rentalDate;
+public class NewRentalDto {
+	 private LocalDateTime rentalDate;
 
 	    private LocalDateTime deliveryDate;
 
 	    private Reader reader;
 	    
 	    private Volume volume;
-
 
 		public LocalDateTime getRentalDate() {
 			return rentalDate;
@@ -50,11 +45,4 @@ public class RentalDto {
 		public void setVolume(Volume volume) {
 			this.volume = volume;
 		}
-
-		public RentalDto() {
-			super();
-		}
-	    
-	    
-	    
 }
