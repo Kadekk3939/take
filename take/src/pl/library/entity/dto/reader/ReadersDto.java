@@ -1,5 +1,9 @@
 package pl.library.entity.dto.reader;
 
-public class ReadersDto {
+import java.util.List;
 
+
+
+public class ReadersDto {
+	 private List<ReaderDto> readers;
 }

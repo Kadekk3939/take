@@ -1,5 +1,9 @@
 package pl.library.entity.dto.rental;
 
-public class RentalsDto {
+import java.util.List;
 
+import pl.library.entity.dto.reader.ReaderDto;
+
+public class RentalsDto {
+	 private List<RentalDto> rentals;
 }
