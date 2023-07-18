@@ -22,12 +22,7 @@ public class TitleRepository {
     }
 
     public Optional<Title> findById(Long id) {
-        TypedQuery<Title> query = em.createQuery(
-            "SELECT t FROM Titles t WHERE t.titleId = :id",
-            Title.class
-        );
-        query.setParameter("id", id);
-        return query.getResultList().stream().findFirst();
+        return Optional.ofNullable(em.find(Title.class, id));
     }
 
     public Optional<Title> findByName(String name) {
@@ -47,5 +42,22 @@ public class TitleRepository {
         return query.getResultList();
     }
 
-    
+    public Optional<Title> updateTitle(Title title) {
+        Optional<Title> toUpdate = findById(title.getTitleId()); 
+        if (toUpdate.isPresent()) {
+            em.merge(title);
+            return Optional.of(title);
+        }
+        return Optional.ofNullable(null);
+    }
+
+    public Optional<Title> deleteTitle(Title title) {
+        Optional<Title> toDelete = findById(title.getTitleId()); 
+        if (toDelete.isPresent()) {
+            em.remove(toDelete);
+            return toDelete;
+        }
+        return Optional.ofNullable(null);
+    }
+
 }
