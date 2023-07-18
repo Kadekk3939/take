@@ -26,6 +26,8 @@ public class Title {
 		this.volumes = volumes;
 	}
 
+	public Title(){}
+	
 	public Long getTitleId() {
 		return titleId;
 	}

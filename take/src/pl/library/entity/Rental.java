@@ -32,6 +32,9 @@ public class Rental {
         this.volume = volume;
     }
     
+    public Rental() {
+ 	}
+    
     public Long getRentalId() {
         return rentalId;
     }
