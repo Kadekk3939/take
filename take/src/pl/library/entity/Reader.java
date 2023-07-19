@@ -9,14 +9,20 @@ import java.util.List;
 
 @Entity
 public class Reader {
+	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long readerId;
+
     private String name;
+
 	private String surname;
+
 	private String login;
+
 	private String password;
-	  @OneToMany(mappedBy = "reader")
+
+	@OneToMany(mappedBy = "reader")
 	private List<Rental> rentals;
 	
 	public Reader(String name, String surname, String login, String password, List<Rental> rentals) {
@@ -30,8 +36,6 @@ public class Reader {
 
     public Reader() {
 	}
-
-
 
 	public Long getReaderId() {
         return readerId;

@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import java.time.LocalDateTime;
@@ -23,10 +24,11 @@ public class Volume {
 
 	private LocalDateTime publishingHouse;
 
-	@OneToMany(mappedBy = "rental")
+	@OneToMany(mappedBy = "volume")
 	private List<Rental> rentals;
 
-	@JoinColumn(name = "title_id")
+	@ManyToOne
+	@JoinColumn(name = "titleId")
 	private Title title;
 	
 
