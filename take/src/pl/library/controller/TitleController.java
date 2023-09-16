@@ -35,6 +35,9 @@ public class TitleController implements TitleControllerREST {
         return titleService.updateTitle(title);
     }
 
-    
+    @Override
+    public boolean deleteTitle(Title title) {
+        return titleService.deleteTitle(title);
+    }
     
 }

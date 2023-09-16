@@ -35,6 +35,14 @@ public class VolumeController implements VolumeControllerREST {
         return volumeService.updateVolume(volume);
     }
 
-    
+    @Override
+    public boolean deleteVolume(Volume volume) {
+        return volumeService.deleteVolume(volume);
+    }
+
+    @Override
+    public boolean deleteVolumeById(Long id) {
+        return volumeService.deleteVolumeById(id);
+    }
     
 }

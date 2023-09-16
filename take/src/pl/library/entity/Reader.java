@@ -27,7 +27,6 @@ public class Reader {
 	
 
 	public Reader(String name, String surname, String login, String password, List<Rental> rentals) {
-		super();
 		this.name = name;
 		this.surname = surname;
 		this.login = login;

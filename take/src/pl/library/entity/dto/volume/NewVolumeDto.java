@@ -1,20 +1,18 @@
 package pl.library.entity.dto.volume;
 
-import java.time.LocalDateTime;
-
 import pl.library.entity.dto.title.TitleDto;
 
 public class NewVolumeDto {
     
     private String author;
-    private LocalDateTime publicationDate;
-    private LocalDateTime publishingHouse;
+    private String publicationDate;
+    private String publishingHouse;
     private TitleDto titleDto;
 
     public NewVolumeDto() {
     }
 
-    public NewVolumeDto(String author, LocalDateTime publicationDate, LocalDateTime publishingHouse,
+    public NewVolumeDto(String author, String publicationDate, String publishingHouse,
             TitleDto titleDto) {
         this.author = author;
         this.publicationDate = publicationDate;
@@ -30,19 +28,19 @@ public class NewVolumeDto {
         this.author = author;
     }
 
-    public LocalDateTime getPublicationDate() {
+    public String getPublicationDate() {
         return publicationDate;
     }
 
-    public void setPublicationDate(LocalDateTime publicationDate) {
+    public void setPublicationDate(String publicationDate) {
         this.publicationDate = publicationDate;
     }
 
-    public LocalDateTime getPublishingHouse() {
+    public String getPublishingHouse() {
         return publishingHouse;
     }
 
-    public void setPublishingHouse(LocalDateTime publishingHouse) {
+    public void setPublishingHouse(String publishingHouse) {
         this.publishingHouse = publishingHouse;
     }
 

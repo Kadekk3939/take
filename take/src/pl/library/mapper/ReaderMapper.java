@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 
 import pl.library.entity.Reader;
@@ -13,6 +14,9 @@ import pl.library.entity.dto.reader.ReadersDto;
 
 @Stateless
 public class ReaderMapper {
+
+    @EJB
+    RentalMapper rentalMapper;
     
     public Reader fromDto(NewReaderDto dto) {
         if (dto == null) return null;
@@ -32,9 +36,8 @@ public class ReaderMapper {
         dto.setLogin(reader.getLogin());
         dto.setName(reader.getName());
         dto.setSurname(reader.getSurname());
-
-        //TODO
-        return null;
+        dto.setRentalsDto(rentalMapper.toDtoList(reader.getRentals()));
+        return dto;
     }
 
     public ReadersDto toDtoList(List<Reader> readers) {

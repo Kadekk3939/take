@@ -6,6 +6,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
 import pl.library.entity.Rental;
+import pl.library.entity.Title;
 
 import java.util.List;
 import java.util.Optional;
@@ -40,6 +41,16 @@ public class RentalRepository {
             return Optional.of(rental);
         }
         return Optional.ofNullable(null);
+    }
+
+    public Optional<Rental> findRentalByReaderAndVolume(Long readerId, Long volumeId) {
+        TypedQuery<Rental> query = em.createQuery(
+            "SELECT r FROM Rental r WHERE r.reader = :readerId and r.volume = :volumeId and r.deliverydate is null",
+            Rental.class
+        );
+        query.setParameter("readerId", readerId);
+        query.setParameter("volumeId", volumeId);
+        return query.getResultList().stream().findFirst();
     }
 
     

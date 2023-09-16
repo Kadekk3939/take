@@ -44,4 +44,9 @@ public class TitleService {
         return titleMapper.toDto(t.isPresent() ? t.get() : null);
     }
 
+    public boolean deleteTitle(Title title) {
+        Optional<Title> result = titleRepository.deleteTitle(title);
+        return result.isPresent();
+    }
+
 }

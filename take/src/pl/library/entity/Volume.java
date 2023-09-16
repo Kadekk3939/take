@@ -22,7 +22,7 @@ public class Volume {
 
 	private LocalDateTime publicationDate;
 
-	private LocalDateTime publishingHouse;
+	private String publishingHouse;
 
 	@OneToMany(mappedBy = "volume")
 	private List<Rental> rentals;
@@ -32,7 +32,7 @@ public class Volume {
 	private Title title;
 	
 
-	public Volume(String author, LocalDateTime publicationDate, LocalDateTime publishingHouse, List<Rental> rentals,Title title) {
+	public Volume(String author, LocalDateTime publicationDate, String publishingHouse, List<Rental> rentals,Title title) {
 		this.author = author;
 		this.publicationDate = publicationDate;
 		this.publishingHouse = publishingHouse;
@@ -71,11 +71,11 @@ public class Volume {
 		this.publicationDate = publicationDate;
 	}
 
-	public LocalDateTime getPublishingHouse() {
+	public String getPublishingHouse() {
 		return publishingHouse;
 	}
 
-	public void setPublishingHouse(LocalDateTime publishingHouse) {
+	public void setPublishingHouse(String publishingHouse) {
 		this.publishingHouse = publishingHouse;
 	}
 	

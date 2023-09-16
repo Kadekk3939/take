@@ -38,6 +38,15 @@ public class VolumeService {
         return volumeMapper.toDto(v.isPresent() ? v.get() : null);
     }
 
+    public boolean deleteVolume(Volume volume) {
+        Optional<Volume> result = volumeRepository.deleteVolume(volume);
+        return result.isPresent();
+    }
+
+    public boolean deleteVolumeById(Long id) {
+        Optional<Volume> result = volumeRepository.deleteVolumeById(id);
+        return result.isPresent();
+    }
     
     
 }

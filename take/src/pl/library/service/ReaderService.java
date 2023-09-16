@@ -40,4 +40,9 @@ public class ReaderService {
 		Optional<Reader> r = readerRepository.findById(reader.getReaderId());
 		return readerMapper.toDto(r.isPresent() ? r.get() : null);
 	}
+
+	public boolean deleteReader(Reader reader) {
+		Optional<Reader> result = readerRepository.deleteReader(reader);
+		return result.isPresent();
+	}
 }

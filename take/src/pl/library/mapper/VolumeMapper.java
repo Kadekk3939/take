@@ -1,5 +1,6 @@
 package pl.library.mapper;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -26,7 +27,7 @@ public class VolumeMapper {
         if (dto == null) return null;
         Volume volume = new Volume();
         volume.setAuthor(dto.getAuthor());
-        volume.setPublicationDate(dto.getPublicationDate());
+        volume.setPublicationDate(LocalDateTime.parse(dto.getPublicationDate()));
         volume.setPublishingHouse(dto.getPublishingHouse());
         volume.setRentals(new ArrayList<>());
         Optional<Title> title = titleRepository.findByName(dto.getTitleDto().getName());
@@ -38,7 +39,7 @@ public class VolumeMapper {
         if (volume == null) return null;
         VolumeDto dto = new VolumeDto();
         dto.setAuthor(volume.getAuthor());
-        dto.setPublicationDate(volume.getPublicationDate());
+        dto.setPublicationDate(volume.getPublicationDate().toString());
         dto.setPublishingHouse(volume.getPublishingHouse());
         dto.setId(volume.getVolumeId());
         TitleDto title = new TitleDto();

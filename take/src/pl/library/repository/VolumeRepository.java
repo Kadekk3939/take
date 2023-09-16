@@ -50,5 +50,14 @@ public class VolumeRepository {
         }
         return Optional.ofNullable(null);
     }
+
+    public Optional<Volume> deleteVolumeById(Long id) {
+        Optional<Volume> toDelete = findById(id); 
+        if (toDelete.isPresent()) {
+            em.remove(toDelete);
+            return toDelete;
+        }
+        return Optional.ofNullable(null);
+    }
     
 }

@@ -30,6 +30,7 @@ public interface RentalControllerREST {
     RentalDto getRentalById(@PathParam("id") Long id);
 
     @PUT
-    RentalDto updateRental(Rental rental);
+    @Path("/return/{readerId}/{volumeId}")
+    RentalDto deliverRental(@PathParam("readerId") Long readerId, @PathParam("volumeId") Long volumeId);
     
 }

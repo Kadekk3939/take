@@ -32,8 +32,10 @@ public class RentalController implements RentalControllerREST {
     }
 
     @Override
-    public RentalDto updateRental(Rental rental) {
-        return null;
+    public RentalDto deliverRental(Long readerId, Long volumeId) {
+        return rentalService.deliverRental(readerId, volumeId);
     }
+
+    
     
 }

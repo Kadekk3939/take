@@ -34,5 +34,10 @@ public class ReaderController implements ReaderControllerREST {
     public ReaderDto updateReader(Reader reader) {
         return readerService.updateReader(reader);
     }
+
+    @Override
+    public boolean deleteReader(Reader reader) {
+        return readerService.deleteReader(reader);
+    }
     
 }

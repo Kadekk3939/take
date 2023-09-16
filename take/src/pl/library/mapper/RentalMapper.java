@@ -61,7 +61,7 @@ public class RentalMapper {
         title.setName(rental.getVolume().getTitle().getName());
         volume.setTitleDto(title);
         volume.setAuthor(rental.getVolume().getAuthor());
-        volume.setPublicationDate(rental.getVolume().getPublicationDate());
+        volume.setPublicationDate(rental.getVolume().getPublicationDate().toString());
         volume.setPublishingHouse(rental.getVolume().getPublishingHouse());
         dto.setVolumeDto(volume);
 
