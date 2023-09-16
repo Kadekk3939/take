@@ -27,7 +27,7 @@ public class VolumeRepository {
     
     public List<Volume> findAll() {
         TypedQuery<Volume> query = em.createQuery(
-            "SELECT v FROM Volumes v",
+            "SELECT v FROM Volume v",
             Volume.class
         );
         return query.getResultList();

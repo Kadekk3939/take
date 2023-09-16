@@ -27,7 +27,7 @@ public class TitleRepository {
 
     public Optional<Title> findByName(String name) {
         TypedQuery<Title> query = em.createQuery(
-            "SELECT t FROM Titles t WHERE t.name = :name",
+            "SELECT t FROM Title t WHERE t.name = :name",
             Title.class
         );
         query.setParameter("name", name);
@@ -36,7 +36,7 @@ public class TitleRepository {
     
     public List<Title> findAll() {
         TypedQuery<Title> query = em.createQuery(
-            "SELECT t FROM Titles t",
+            "SELECT t FROM Title t",
             Title.class
         );
         return query.getResultList();

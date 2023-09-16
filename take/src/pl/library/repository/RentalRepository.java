@@ -27,7 +27,7 @@ public class RentalRepository {
     
     public List<Rental> findAll() {
         TypedQuery<Rental> query = em.createQuery(
-            "SELECT r FROM Rentals r",
+            "SELECT r FROM Rental r",
             Rental.class
         );
         return query.getResultList();
@@ -42,13 +42,5 @@ public class RentalRepository {
         return Optional.ofNullable(null);
     }
 
-    public Optional<Rental> deleteRental(Rental rental) {
-        Optional<Rental> toDelete = findById(rental.getRentalId()); 
-        if (toDelete.isPresent()) {
-            em.remove(toDelete);
-            return toDelete;
-        }
-        return Optional.ofNullable(null);
-    }
     
 }

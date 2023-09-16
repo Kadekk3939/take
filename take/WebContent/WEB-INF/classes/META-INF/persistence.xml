@@ -5,10 +5,6 @@
 	<persistence-unit name="default">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
-		<class>eu.myszojelenie.entity.Student</class>
-		<class>eu.myszojelenie.entity.Company</class>
-		<class>eu.myszojelenie.entity.Offer</class>
-		<class>eu.myszojelenie.entity.Internship</class>
 		<class>pl.library.entity.Reader</class>
 		<class>pl.library.entity.Rental</class>
 		<class>pl.library.entity.Volume</class>

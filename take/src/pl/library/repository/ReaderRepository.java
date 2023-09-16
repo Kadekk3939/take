@@ -13,7 +13,7 @@ import pl.library.entity.Reader;
 @Stateless
 public class ReaderRepository {
 
-        @PersistenceContext(name = "default")
+    @PersistenceContext(name = "default")
     private EntityManager em;
 
     public Reader addReader(Reader reader) {
@@ -27,16 +27,16 @@ public class ReaderRepository {
 
     public Optional<Reader> findByLogin(String login) {
         TypedQuery<Reader> query = em.createQuery(
-            "SELECT r FROM Readers r WHERE r.stream = :stream",
+            "SELECT r FROM Reader r WHERE r.login = :login",
             Reader.class
         );
-        query.setParameter("stream", login);
+        query.setParameter("login", login);
         return query.getResultList().stream().findFirst();
     }
     
     public List<Reader> findAll() {
         TypedQuery<Reader> query = em.createQuery(
-            "SELECT r FROM Readers r",
+            "SELECT r FROM Reader r",
             Reader.class
         );
         return query.getResultList();

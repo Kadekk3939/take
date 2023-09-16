@@ -1,42 +1,47 @@
 package pl.library.entity.dto.title;
 
-import java.util.List;
-
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-
-import pl.library.entity.Volume;
+import pl.library.entity.dto.volume.VolumesDto;
 
 public class TitleDto {
 
-	    private Long id;
-	  private String name;
+	private Long id;
+	private String name;
+	private VolumesDto volumesDto;
 
-		private List<Volume> volumes;
 
-		public Long getId() {
-			return id;
-		}
+	public TitleDto(Long id, String name, VolumesDto volumesDto) {
+		this.id = id;
+		this.name = name;
+		this.volumesDto = volumesDto;
+	}
 
-		public void setId(Long id) {
-			this.id = id;
-		}
+	public TitleDto() {
+	}
 
-		public String getName() {
-			return name;
-		}
 
-		public void setName(String name) {
-			this.name = name;
-		}
+	public Long getId() {
+		return id;
+	}
 
-		public List<Volume> getVolumes() {
-			return volumes;
-		}
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-		public void setVolumes(List<Volume> volumes) {
-			this.volumes = volumes;
-		}
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public VolumesDto getVolumesDto() {
+		return volumesDto;
+	}
+
+	public void setVolumesDto(VolumesDto volumesDto) {
+		this.volumesDto = volumesDto;
+	}
+
+	
 }

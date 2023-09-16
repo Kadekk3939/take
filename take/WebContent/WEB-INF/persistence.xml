@@ -5,13 +5,13 @@
 	<persistence-unit name="default">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
-		<class>eu.myszojelenie.entity.Student</class>
-		<class>eu.myszojelenie.entity.Company</class>
-		<class>eu.myszojelenie.entity.Offer</class>
-		<class>eu.myszojelenie.entity.Internship</class>
+		<class>pl.library.entity.Reader</class>
+		<class>pl.library.entity.Rental</class>
+		<class>pl.library.entity.Volume</class>
+		<class>pl.library.entity.Title</class>
 		<properties>
-			<!--<property name="hibernate.hbm2ddl.auto" value="create-drop" />-->
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+			<!-- <property name="hibernate.hbm2ddl.auto" value="update"/> -->
 			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
             <property name="hibernate.max_fetch_depth" value="3" />
             <property name="hibernate.show_sql" value="true" />

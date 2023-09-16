@@ -1,48 +1,36 @@
 package pl.library.entity.dto.rental;
 
-import java.time.LocalDateTime;
-
-import pl.library.entity.Reader;
-import pl.library.entity.Volume;
+import pl.library.entity.dto.reader.ReaderDto;
+import pl.library.entity.dto.volume.VolumeDto;
 
 public class NewRentalDto {
-	 private LocalDateTime rentalDate;
 
-	    private LocalDateTime deliveryDate;
+	private ReaderDto readerDto;
+	private VolumeDto volumeDto;
+	
+	public NewRentalDto(ReaderDto readerDto, VolumeDto volumeDto) {
+		this.readerDto = readerDto;
+		this.volumeDto = volumeDto;
+	}
 
-	    private Reader reader;
-	    
-	    private Volume volume;
+	public NewRentalDto() {
+	}
 
-		public LocalDateTime getRentalDate() {
-			return rentalDate;
-		}
+	public ReaderDto getReaderDto() {
+		return readerDto;
+	}
 
-		public void setRentalDate(LocalDateTime rentalDate) {
-			this.rentalDate = rentalDate;
-		}
+	public void setReaderDto(ReaderDto readerDto) {
+		this.readerDto = readerDto;
+	}
 
-		public LocalDateTime getDeliveryDate() {
-			return deliveryDate;
-		}
+	public VolumeDto getVolumeDto() {
+		return volumeDto;
+	}
 
-		public void setDeliveryDate(LocalDateTime deliveryDate) {
-			this.deliveryDate = deliveryDate;
-		}
+	public void setVolumeDto(VolumeDto volumeDto) {
+		this.volumeDto = volumeDto;
+	}
 
-		public Reader getReader() {
-			return reader;
-		}
-
-		public void setReader(Reader reader) {
-			this.reader = reader;
-		}
-
-		public Volume getVolume() {
-			return volume;
-		}
-
-		public void setVolume(Volume volume) {
-			this.volume = volume;
-		}
+	
 }

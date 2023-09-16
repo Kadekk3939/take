@@ -28,6 +28,7 @@ public class Rental {
     @JoinColumn(name = "volumeId")
     private Volume volume;
     
+
     public Rental(LocalDateTime rentalDate, LocalDateTime deliveryDate, Reader reader,Volume volume) {
         this.rentalDate = rentalDate;
         this.deliveryDate = deliveryDate;
@@ -38,33 +39,30 @@ public class Rental {
     public Rental() {
  	}
     
+
     public Long getRentalId() {
         return rentalId;
     }
-
 
     public LocalDateTime getRentalDate() {
         return rentalDate;
     }
 
-
     public void setRentalDate(LocalDateTime rentalDate) {
         this.rentalDate = rentalDate;
     }
-
 
     public LocalDateTime getDeliveryDate() {
         return deliveryDate;
     }
 
-
     public void setDeliveryDate(LocalDateTime deliveryDate) {
         this.deliveryDate = deliveryDate;
     }
+    
     public Reader getReader() {
         return reader;
     }
-
 
     public void setReader(Reader reader) {
         this.reader = reader;

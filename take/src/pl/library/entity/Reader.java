@@ -25,6 +25,7 @@ public class Reader {
 	@OneToMany(mappedBy = "reader")
 	private List<Rental> rentals;
 	
+
 	public Reader(String name, String surname, String login, String password, List<Rental> rentals) {
 		super();
 		this.name = name;
@@ -37,6 +38,7 @@ public class Reader {
     public Reader() {
 	}
 
+	
 	public Long getReaderId() {
         return readerId;
     }

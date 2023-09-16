@@ -21,12 +21,14 @@ public class Title {
 	@OneToMany(mappedBy = "title")
 	private List<Volume> volumes;
 	
+
 	public Title(String name, List<Volume> volumes) {
 		this.name = name;
 		this.volumes = volumes;
 	}
 
 	public Title(){}
+	
 	
 	public Long getTitleId() {
 		return titleId;

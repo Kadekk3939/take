@@ -1,15 +1,24 @@
 package pl.library.entity.dto.rental;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import pl.library.entity.dto.reader.ReaderDto;
-
 public class RentalsDto {
-
-
-	private List<RentalDto> rentals;
+	private List<RentalDto> rentals = new ArrayList<>();
 	
-	 public RentalsDto(List<RentalDto> rentals) {
+	public RentalsDto(List<RentalDto> rentals) {
 		this.rentals = rentals;
 	}
+
+	public RentalsDto() {
+	}
+
+	public List<RentalDto> getRentals() {
+		return rentals;
+	}
+
+	public void setRentals(List<RentalDto> rentals) {
+		this.rentals = rentals;
+	}
+
 }

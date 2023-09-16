@@ -42,6 +42,7 @@ public class Volume {
 	
 	public Volume(){}
 
+
 	public Long getVolumeId() {
 		return volumeId;
 	}
@@ -50,46 +51,37 @@ public class Volume {
 		return rentals;
 	}
 
-
 	public void setRentals(List<Rental> rentals) {
 		this.rentals = rentals;
 	}
-
 
 	public String getAuthor() {
 		return author;
 	}
 
-
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-
 
 	public LocalDateTime getPublicationDate() {
 		return publicationDate;
 	}
 
-
 	public void setPublicationDate(LocalDateTime publicationDate) {
 		this.publicationDate = publicationDate;
 	}
-
 
 	public LocalDateTime getPublishingHouse() {
 		return publishingHouse;
 	}
 
-
 	public void setPublishingHouse(LocalDateTime publishingHouse) {
 		this.publishingHouse = publishingHouse;
 	}
 	
-	
 	public Title getTitle() {
 		return title;
 	}
-
 
 	public void setTitle(Title title) {
 		this.title = title;

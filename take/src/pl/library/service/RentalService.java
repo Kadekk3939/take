@@ -12,6 +12,7 @@ import pl.library.entity.dto.reader.ReadersDto;
 import pl.library.entity.dto.rental.NewRentalDto;
 import pl.library.entity.dto.rental.RentalDto;
 import pl.library.entity.dto.rental.RentalsDto;
+import pl.library.mapper.RentalMapper;
 import pl.library.repository.RentalRepository;
 
 
@@ -19,38 +20,22 @@ import pl.library.repository.RentalRepository;
 public class RentalService {
 	
     @EJB
-   RentalRepository rentalRepository;
-    
-	 public RentalDto create(NewRentalDto rentalDto) {
-	        Rental rental = new Rental();
-	       rental.setVolume(rentalDto.getVolume());
-	       rental.setRentalDate(rentalDto.getRentalDate());
-	       rental.setReader(rental.getReader());
-	       rental.setDeliveryDate(rentalDto.getDeliveryDate());
-	        Rental createdRental = rentalRepository.addRental(rental);
-	        return mapToDto(createdRental);
-	    }
-	 
-	  public Optional<RentalDto> findReaderById(Long id) {
-	        Optional<Rental> rental = rentalRepository.findById(id);
-	        return rental.map(this::mapToDto);
-	    }
+   	RentalRepository rentalRepository;
 
-	    public RentalsDto findAll() {
-	        List<Rental> rentals = rentalRepository.findAll();
-	        List<RentalDto> dtos = rentals.stream()
-	                .map(this::mapToDto)
-	                .collect(Collectors.toList());
-	        return new RentalsDto(dtos);
-	    }
+	@EJB
+	RentalMapper rentalMapper;
 
-	    private RentalDto mapToDto(Rental rental) {
-	    	RentalDto dto = new RentalDto();
-	      dto.setDeliveryDate(rental.getDeliveryDate());
-	      dto.setReader(rental.getReader());
-	      dto.setRentalDate(rental.getRentalDate());
-	      dto.setVolume(rental.getVolume());
-	        return dto;
-	    }
+	public RentalDto addRental(NewRentalDto rentalDto) {
+		return rentalMapper.toDto(rentalRepository.addRental(rentalMapper.fromDto(rentalDto)));
+	}
+	
+	public RentalDto findRentalById(Long id) {
+		Optional<Rental> rental = rentalRepository.findById(id);
+		return rentalMapper.toDto(rental.isPresent() ? rental.get() : null);
+	}
+
+	public RentalsDto findAll() {
+		return rentalMapper.toDtoList(rentalRepository.findAll());
+	}
 
 }
